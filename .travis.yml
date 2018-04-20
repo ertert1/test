@@ -6,8 +6,7 @@ jdk:
   - oraclejdk8
   
 
-before_script:
-  - travis_retry composer self-update
+
 
 script:
   - jdk_switcher use oraclejdk8
