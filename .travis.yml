@@ -13,8 +13,7 @@ before_script:
 script:
   - jdk_switcher use oraclejdk8
 
-install:
-  - travis_retry composer install --no-interaction --prefer-dist
+
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
